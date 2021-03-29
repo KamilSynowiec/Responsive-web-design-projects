@@ -2,6 +2,11 @@
     width: 300px;
     margin: auto;
   }
+@media (max-width: 300px){
+    #img-div{
+        width:200px;
+    }
+}
 #image{
     max-width: 100%;
     height: auto;
