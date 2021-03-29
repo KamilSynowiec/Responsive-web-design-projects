@@ -1,5 +1,5 @@
 #img-div{
-    width: 300x;
+    width: 300px;
     margin: auto;
   }
 #image{
@@ -9,16 +9,19 @@
     margin-right: auto;
 }
 #img-caption{
-    font-size: 14px;
+    font-size: 10px;
 }
 #tribute-info{
     font-size: 20px;
-}
-h1{
-    text-align: center;
-    color: #2E151B
+    text-align: left;
 }
 body{
     background-color: #FFCB9A;
-  
+    text-align: center;
+    font-family: fantasy;
+}
+h1{
+    font-size: 50px;
+    font-family: 'Brush Script MT', cursive;
+    color: #2E151B
 }
