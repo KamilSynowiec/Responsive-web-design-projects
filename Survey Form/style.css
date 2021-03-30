@@ -1,0 +1,53 @@
+header{
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+body{
+    background-color: white;
+}
+.container{
+    background-color: #898984;
+    width:600px;
+    height: 670px;
+    margin: auto;
+    color: black;
+    border-radius: 5px;
+    align-items:center;
+}
+#name{
+    border-style: double;
+    border-color: rgb(207, 207, 207);
+    border-width: 2px;
+    border-radius: 5px;
+
+
+}
+#email{
+    border-style: double;
+    border-color: rgb(207, 207, 207);
+    border-width: 2px;
+    border-radius: 5px;
+}
+#number{
+    border-style: double;
+    border-color: rgb(207, 207, 207);
+    border-width: 2px;
+    border-radius: 5px;
+}
+#text{
+    border-style: double;
+    border-color: rgb(207, 207, 207);
+    border-width: 2px;
+    border-radius: 5px;
+}
+#submit{
+    width: 300px;
+    height: 30px;
+    font-size: 10px;
+    margin-left: 2px;
+    background-color: white;
+    border-style: double;
+    border-color: rgb(207, 207, 207);
+    border-radius: 5px;
+}

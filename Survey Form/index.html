@@ -6,50 +6,61 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1 id="title">Survey Form</h1>
-    <p id="description">short explanation</p>
-    <form if="survey-form">
-        <label id="name-label">What's your name?</label>
-        <input type="text" id="name" placeholder="name" required>
-
-        <label id="email-label">What's your email address?</label>
-        <input type="email" id="email" placeholder="example@gmail.com" required>
-
-        <label id="number-label">What's your age?</label>
-        <input type="number" id="number"  placeholder="40" min="1" max="100" required>
-
-        <select id="dropdown">
-            <option></option>
-            <option></option>
-            <option></option>
-        </select>
-
-        <label for="first">
-            <input id="first" type="radio" name="radio-a" value="first" checked>first
-        </label>
-        <label for="second">
-            <input id="second" type="radio" name="radio-a" value="second">second
-        </label>
-        <label for="third">
-            <input id="third" type="radio" name="radio-a" value="third"> third
-        </label>
-
-        <label for="first_ch">
-            <input id="first_ch" type="checkbox" name="checkbox-a" value="first" checked>first
-        </label>
-        <label for="second_ch">
-            <input id="second_ch" type="checkbox" name="checkbox-a" value="second" checked>second
-        </label>
-        <label for="third_ch">
-            <input id="third_ch" type="checkbox" name="checkbox-a" value="third" checked>third
-        </label>
-
-        <textarea id="text" rows="5" cols="40" placeholder="This is a place for additional comments..."></textarea>
-
-        <button id="submit">Submit</button>
-       
-
-    </form>
+    <header>
+        <h1 id="title">Survey Form</h1>
+        <p id="description">short explanation</p>
+    </header>
+    <div class="container">
+        <form if="survey-form">
+            <div class="form-group">
+                <label id="name-label">What's your name?</label>
+                <input type="text" id="name" placeholder="name" required>
+            </div>
+            <div class="form-group">
+                <label id="email-label">What's your email address?</label>
+                <input type="email" id="email" placeholder="example@gmail.com" required>
+            </div>
+            <div class="form-group">
+                <label id="number-label">What's your age?</label>
+                <input type="number" id="number"  placeholder="40" min="1" max="100" required>
+            </div>
+            <div class="form-group">
+                <select id="dropdown">
+                    <option></option>
+                    <option></option>
+                    <option></option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="first">
+                    <input id="first" type="radio" name="radio-a" value="first" checked>first
+                </label>
+                <label for="second">
+                    <input id="second" type="radio" name="radio-a" value="second">second
+                </label>
+                <label for="third">
+                    <input id="third" type="radio" name="radio-a" value="third"> third
+                </label>
+            </div>
+            <div class="form-group">
+                <label for="first_ch">
+                    <input id="first_ch" type="checkbox" name="checkbox-a" value="first" checked>first
+                </label>
+                <label for="second_ch">
+                    <input id="second_ch" type="checkbox" name="checkbox-a" value="second" checked>second
+                </label>
+                <label for="third_ch">
+                    <input id="third_ch" type="checkbox" name="checkbox-a" value="third" checked>third
+                </label>
+            </div>
+            <div class="form-group">
+                <textarea id="text" rows="5" cols="40" placeholder="This is a place for additional comments..."></textarea>
+            </div>
+            <div class="form-group">
+                <button id="submit">Submit</button>
+            </div>
+        </form>
+    </div>
 
 </body>
 </html>
