@@ -1,0 +1,9 @@
+header{
+    position: fixed;
+}
+#header-img{
+    float: left;
+}
+body{
+    background-color: whitesmoke;
+}
