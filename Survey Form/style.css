@@ -1,30 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
 header{
     text-align: center;
     font-family:'Courier New', Courier, monospace;
     font-size: 20px;
 }
 body{
-    background-color: white;
+    font-family: Ubuntu;
 }
 .container{
     background-color: #898984;
     width:600px;
-    height: 500px;
+    height: 650px;
     margin: auto;
     color: black; 
-    border-radius: 5px;
-    align-items:center;
-
+    border-radius: 10px;
+    overflow: hidden
 }
 #name{
+    width: 250px;
     border-style: double;
     border-color: rgb(207, 207, 207);
     border-width: 2px;
     border-radius: 5px;
-
-
 }
 #email{
+    width: 250px;
     border-style: double;
     border-color: rgb(207, 207, 207);
     border-width: 2px;
@@ -37,13 +38,15 @@ body{
     border-radius: 5px;
 }
 #text{
+    width: 508px;
     border-style: double;
     border-color: rgb(207, 207, 207);
     border-width: 2px;
     border-radius: 5px;
+    margin-top: 30px;
 }
 #submit{
-    width: 300px;
+    width: 516px;
     height: 30px;
     font-size: 10px;
     margin-left: 2px;
@@ -52,6 +55,17 @@ body{
     border-color: rgb(207, 207, 207);
     border-radius: 5px;
 }
-.form-group{
+#survey-form{
+    text-align: left;
+    margin-left: 41px;
+    font-size: 20px;
+}
+hr{
+    margin-bottom: -18px;
+    margin-right: 44px;
+    width: 510px;
     
+}
+.form-group{
+    margin-top:20px;
 }

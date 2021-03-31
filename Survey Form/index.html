@@ -11,27 +11,31 @@
         <p id="description">short explanation</p>
     </header>
     <div class="container">
-        <form if="survey-form">
+        <form id="survey-form">
             <div class="form-group">
-                <label id="name-label">What's your name?</label>
+                <label id="name-label">What's your name?</label><br>
                 <input type="text" id="name" placeholder="name" required>
             </div>
             <div class="form-group">
-                <label id="email-label">What's your email address?</label>
+                <label id="email-label">What's your email address?</label><br>
                 <input type="email" id="email" placeholder="example@gmail.com" required>
             </div>
             <div class="form-group">
-                <label id="number-label">What's your age?</label>
+                <label id="number-label">What's your age?</label><br>
                 <input type="number" id="number"  placeholder="40" min="1" max="100" required>
+                <hr>
             </div>
             <div class="form-group">
+                <p>question1?</p>
                 <select id="dropdown">
                     <option></option>
                     <option></option>
                     <option></option>
                 </select>
+                <hr>
             </div>
             <div class="form-group">
+                <p>question2?</p>
                 <label for="first">
                     <input id="first" type="radio" name="radio-a" value="first" checked>first
                 </label>
@@ -42,7 +46,9 @@
                     <input id="third" type="radio" name="radio-a" value="third"> third
                 </label>
             </div>
+            <hr>
             <div class="form-group">
+                <p>question3?</p>
                 <label for="first_ch">
                     <input id="first_ch" type="checkbox" name="checkbox-a" value="first" checked>first
                 </label>
@@ -53,8 +59,9 @@
                     <input id="third_ch" type="checkbox" name="checkbox-a" value="third" checked>third
                 </label>
             </div>
+            <hr>
             <div class="form-group">
-                <textarea id="text" rows="5" cols="40" placeholder="This is a place for additional comments..."></textarea>
+                <textarea id="text" rows="5" cols="70" placeholder="This is a place for additional comments..."></textarea>
             </div>
             <div class="form-group">
                 <button id="submit">Submit</button>
